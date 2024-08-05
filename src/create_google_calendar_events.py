@@ -54,9 +54,12 @@ def delete_conflicting_events(start_datetime, end_datetime):
 
 def Handler():
     
-    print('Uploading last schedule to local knowledge . . .')
+    cwd = os.getcwd()
     filename = 'last_prompt.json'
-    upload_to_knowledge(filename)
+    
+    if os.path.isfile(os.path.join(cwd, filename)):
+        print('Uploading last schedule to local knowledge . . .')
+        upload_to_knowledge(filename)
     
     print('Creating schedule...')
     schedule = ast.literal_eval(get_response(prompt))
