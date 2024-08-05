@@ -38,6 +38,7 @@ Before installing, complete the following tasks:
   - Make a `Service Account` as those are the credentials you'll need
   - Might need to google this if you're unfamiliar
 
+- **MAKE SURE TO CREATE A NEW CALENDAR ON GOOGLE CALENDAR FOR THIS PROJECT, OR IT WILL DELETE ANY CONFLICTS FROM YOUR MAIN CALENDAR WHICH IS IRREVERSIBLE (I THINK)**
   
 ### Install
 Once you have finished the above tasks, navigate to the directory you'd like to work in and do the following:
