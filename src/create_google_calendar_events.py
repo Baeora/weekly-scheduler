@@ -12,7 +12,8 @@ dotenv.load_dotenv()
 import os
 
 # Path to your credentials.json file
-SERVICE_ACCOUNT_FILE = 'creds.json'
+cwd = os.getcwd()
+SERVICE_ACCOUNT_FILE = os.path.join(cwd, 'creds.json')
 
 # Define the scopes required
 SCOPES = ['https://www.googleapis.com/auth/calendar']
