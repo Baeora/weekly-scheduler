@@ -13,7 +13,9 @@ I hope it helps you!
 - [License](#license)
 
 ## Overview
-This tool takes in a prompt from the file `prompt.py` and feeds it into the OpenAI GPT via the API, and uses the return as a list of dictionary events that are then fed into Google Calendar via the Calendar API
+This tool takes in a prompt from the file `prompt.py` and feeds it into the OpenAI GPT via the API, and uses the return as a list of dictionary events that are then fed into Google Calendar via the Calendar API to create a fresh schedule for you based on your hobbies (or whatever you put in the prompt) that you don't have to worry about creating events for!
+
+![Schedule](https://pbs.twimg.com/media/GUMAlnYXUAAyU4G?format=jpg&name=large)
 
 ## Installation
 
