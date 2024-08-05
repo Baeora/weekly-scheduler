@@ -28,6 +28,7 @@ Before installing, complete the following tasks:
 
 - Get your [OpenAI API Key](https://openai.com/index/openai-api/)!
   - Create an OpenAI Account
+  	- You will need to add some $ Credits here, each run costs less than $0.01 USD so even just adding $5 USD to your account should last you a long time 
   - In the top left, make a new project with your desired project name
   - Head to your [Profile](https://platform.openai.com/settings/profile) and under the `Your Profile` section click the `User API Keys` tab
   - Create a new `Project API Key` from here
