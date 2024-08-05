@@ -1,0 +1,4 @@
+google_api_python_client==2.139.0
+openai==1.38.0
+protobuf==5.27.3
+python-dotenv==1.0.1
